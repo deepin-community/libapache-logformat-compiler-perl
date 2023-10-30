@@ -1,5 +1,121 @@
-template-repository (1.0-1) unstable; urgency=medium
+libapache-logformat-compiler-perl (0.36-3) unstable; urgency=medium
 
-  * Initial release
+  [ Debian Janitor ]
+  * Apply multi-arch hints. + libapache-logformat-compiler-perl: Add Multi-Arch: foreign.
+  * Update standards version to 4.6.1, no changes needed.
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sat, 19 Nov 2022 14:06:08 +0000
+
+libapache-logformat-compiler-perl (0.36-2) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Update standards version to 4.5.0, no changes needed.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Mon, 11 Jul 2022 17:36:33 +0100
+
+libapache-logformat-compiler-perl (0.36-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ Salvatore Bonaccorso ]
+  * Update Vcs-* headers for switch to salsa.debian.org
+
+  [ gregor herrmann ]
+  * debian/*: update URLs from {search,www}.cpan.org to MetaCPAN.
+  * debian/*: update GitHub URLs to use HTTPS.
+
+  [ Nick Morrott ]
+  * New upstream version 0.36
+  * d/control:
+    - Declare compliance with Debian Policy 4.4.1
+    - Bump debhelper-compat level to 12
+    - Add Rules-Requires-Root field
+    - Annotate test-only build dependencies with <!nocheck>
+    - Drop unnecessary versioned build dependency
+  * d/copyright:
+    - Sort Header stanza
+  * d/u/metadata:
+    - Add Bug-Submit field; drop deprecated Contact, Name fields
+  * d/watch:
+    - Migrate to version 4 watch file format
+
+ -- Nick Morrott <nickm@debian.org>  Sun, 01 Dec 2019 17:31:09 +0000
+
+libapache-logformat-compiler-perl (0.35-1) unstable; urgency=medium
+
+  * Import upstream version 0.35
+  * Build-Depend on debhelper 9.20140227 for M::B::Tiny
+  * Update copyright years
+  * Declare compliance with Debian Policy 4.1.1
+
+ -- Florian Schlichting <fsfs@debian.org>  Sun, 08 Oct 2017 21:19:18 +0200
+
+libapache-logformat-compiler-perl (0.33-2) unstable; urgency=medium
+
+  * Team upload.
+  * debian/copyright: change Copyright-Format 1.0 URL to HTTPS.
+  * debian/upstream/metadata: use HTTPS for GitHub URLs.
+  * Add build dependency on tzdata.
+    Thanks to Lucas Nussbaum for the bug report. (Closes: #839513)
+  * Drop unnecessary version constraints from build dependencies.
+  * Declare compliance with Debian Policy 3.9.8.
+
+ -- gregor herrmann <gregoa@debian.org>  Sat, 01 Oct 2016 17:37:12 +0200
+
+libapache-logformat-compiler-perl (0.33-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Salvatore Bonaccorso ]
+  * debian/control: Use HTTPS transport protocol for Vcs-Git URI
+
+  [ gregor herrmann ]
+  * Import upstream version 0.33
+  * Declare compliance with Debian Policy 3.9.7.
+  * Bump debhelper compatibility level to 9.
+
+ -- gregor herrmann <gregoa@debian.org>  Fri, 12 Feb 2016 20:28:58 +0100
+
+libapache-logformat-compiler-perl (0.32-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Florian Schlichting ]
+  * Import Upstream version 0.32
+
+  [ Salvatore Bonaccorso ]
+  * Update Vcs-Browser URL to cgit web frontend
+
+  [ gregor herrmann ]
+  * debian/control: update Module::Build dependency.
+  * Add debian/upstream/metadata
+  * Declare compliance with Debian Policy 3.9.6.
+  * Mark package as autopkgtest-able.
+
+ -- gregor herrmann <gregoa@debian.org>  Mon, 01 Jun 2015 22:25:24 +0200
+
+libapache-logformat-compiler-perl (0.30-1) unstable; urgency=medium
+
+  [ Florian Schlichting ]
+  * Import Upstream version 0.23, 0.30
+  * Add (build-)dependency on POSIX::strftime::Compiler
+
+ -- Florian Schlichting <fsfs@debian.org>  Fri, 07 Mar 2014 21:04:26 +0100
+
+libapache-logformat-compiler-perl (0.22-1) unstable; urgency=low
+
+  * Import Upstream versions 0.13, 0.22
+  * Drop patches, both were applied upstream
+  * Add build-dependency on libtest-mocktime-perl
+  * Update years of packaging copyright
+  * Add upstream-repo URL to Source field
+  * Update Vcs-Git field to canonical value
+  * Declare compliance with Debian Policy 3.9.5
+
+ -- Florian Schlichting <fsfs@debian.org>  Thu, 09 Jan 2014 23:39:19 +0100
+
+libapache-logformat-compiler-perl (0.12-1) unstable; urgency=low
+
+  * Initial Release. (Closes: #709429)
+
+ -- Florian Schlichting <fsfs@debian.org>  Thu, 23 May 2013 13:09:55 +0200
